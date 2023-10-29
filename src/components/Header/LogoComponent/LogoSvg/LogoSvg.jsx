@@ -1,4 +1,4 @@
-import styles from './LogoSvg.module.css';
+import styles from './LogoSvg.module.scss';
 
 const LogoSvg = () => {
   return (

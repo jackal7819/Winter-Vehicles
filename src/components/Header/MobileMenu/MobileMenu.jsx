@@ -1,7 +1,7 @@
 import { AiOutlineClose } from 'react-icons/ai';
 import Container from '../../Container/Container';
 import { Link } from 'react-scroll';
-import styles from './MobileMenu.module.css';
+import styles from './MobileMenu.module.scss';
 import { useTranslation } from 'react-i18next';
 
 // eslint-disable-next-line react/prop-types
