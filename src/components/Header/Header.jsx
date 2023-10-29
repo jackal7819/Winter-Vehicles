@@ -4,7 +4,7 @@ import LangSwitcher from './LangSwitcher/LangSwitcher';
 import { Link } from 'react-scroll';
 import LogoComponent from './LogoComponent/LogoComponent';
 import MobileMenu from './MobileMenu/MobileMenu';
-import styles from './header.module.scss';
+import styles from './header.module.css';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
