@@ -1,4 +1,4 @@
-/* @import "../../styles/vars";
+@import "../../styles/vars";
 
 .header {
   background-color: $primary-black-color;
@@ -10,7 +10,7 @@
   @media screen and (min-width: $tablet) {
     padding: 5px 0;
   }
-} */
+} 
 
 .containerHeader {
   display: flex;
@@ -22,7 +22,7 @@
   align-items: center;
 }
 
-/* .list {
+.list {
   display: none;
 
   @media screen and (min-width: $desktop) {
@@ -76,4 +76,4 @@
   @media screen and (min-width: $desktop) {
     display: none;
   }
-} */
+}
