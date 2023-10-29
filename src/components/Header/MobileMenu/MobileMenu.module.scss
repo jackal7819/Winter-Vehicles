@@ -15,9 +15,9 @@
   pointer-events: none;
   transform: translateX(100%);
 
-  transition-property: opasity, visibility, transform;
+  transition-property: opacity, visibility, transform;
 
-  transition: opasity $transition-duration, visibility $transition-duration,
+  transition: opacity $transition-duration, visibility $transition-duration,
     transform $transition-duration;
 }
 
