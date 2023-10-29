@@ -4,8 +4,8 @@ import react from "@vitejs/plugin-react-swc";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  build: {
-    emptyOutDir: true
-  },
-  base: "/winter-vechicles-landing-page/",
+  // build: {
+  //   emptyOutDir: true
+  // },
+  // base: "/winter-vechicles-landing-page/",
 });
