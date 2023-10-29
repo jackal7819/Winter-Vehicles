@@ -1,12 +1,12 @@
-import { useState } from 'react';
-import { Link } from 'react-scroll';
-import { useTranslation } from 'react-i18next';
-import { FiMenu } from 'react-icons/fi';
 import Container from '../Container/Container';
-import LogoComponent from './LogoComponent/LogoComponent';
+import { FiMenu } from 'react-icons/fi';
 import LangSwitcher from './LangSwitcher/LangSwitcher';
+import { Link } from 'react-scroll';
+import LogoComponent from './LogoComponent/LogoComponent';
 import MobileMenu from './MobileMenu/MobileMenu';
 import styles from './header.module.scss';
+import { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Header = () => {
   const { t } = useTranslation();
