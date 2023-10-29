@@ -1,5 +1,5 @@
 import { IoIosArrowDown } from 'react-icons/io';
-import styles from './LangSwitcher.module.css';
+import styles from './LangSwitcher.module.scss';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 
