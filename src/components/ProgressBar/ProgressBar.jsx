@@ -1,10 +1,11 @@
 import Container from '../Container/Container';
-import { useQuery } from '@tanstack/react-query';
-import { useTranslation } from 'react-i18next';
-import { fetchAccountBalance } from '../../helpers/fetchAccountBalance';
 import car from '../../images/progress-bar/car.svg';
 import heart from '../../images/progress-bar/heart.svg';
 import styles from './ProgressBar.module.scss';
+import { useTranslation } from 'react-i18next';
+
+// import { fetchAccountBalance } from '../../helpers/fetchAccountBalance';
+// import { useQuery } from '@tanstack/react-query';
 
 const formatBalance = (balance = 0) => {
   if (balance < 1000) {
@@ -16,10 +17,12 @@ const formatBalance = (balance = 0) => {
 
 const ProgressBar = () => {
   const { t } = useTranslation();
-  const { data: balance } = useQuery(['accountBalance'], fetchAccountBalance, {
-    refetchInterval: 60000,
-  });
-
+  
+  // const { data: balance } = useQuery(['accountBalance'], fetchAccountBalance, {
+  //   refetchInterval: 60000,
+  // });
+  
+  const balance = 31547;
   const width = balance ? `${Math.floor((balance / 50000) * 100)}%` : '0%';
   let margin =
     balance > 7500 ? `${Math.floor((balance / 50000) * 100 - 8)}%` : '0%';
